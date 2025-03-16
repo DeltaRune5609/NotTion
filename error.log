@@ -1,0 +1,27 @@
+
+[2025-03-15 21:13:37] Traceback (most recent call last):
+  File "C:\Users\dinw2\AppData\Local\Programs\Python\Python39-32\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\dinw2\AppData\Local\Programs\Python\Python39-32\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\__main__.py", line 71, in <module>
+    cli.main()
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy/..\debugpy\server\cli.py", line 501, in main
+    run()
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy/..\debugpy\server\cli.py", line 351, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 310, in run_path
+    return _run_module_code(code, init_globals, run_name, pkg_name=pkg_name, script_name=fname)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 127, in _run_module_code
+    _run_code(code, mod_globals, init_globals, mod_name, mod_spec, pkg_name, script_name)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 118, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\dinw2\source\repos\NotTion\NotTion\NotTion.py", line 213, in <module>
+    app = NoteApp(root)
+  File "C:\Users\dinw2\source\repos\NotTion\NotTion\NotTion.py", line 28, in __init__
+    self.embed_youtube("https://www.youtube.com/embed/dQw4w9WgXcQ")
+  File "C:\Users\dinw2\source\repos\NotTion\NotTion\NotTion.py", line 55, in embed_youtube
+    self.browser = cef.CreateBrowserSync(url=url, window_handle=self.video_frame.winfo_id())
+  File "cefpython_py39.pyx", line 677, in cefpython_py39.CreateBrowserSync
+Exception: Invalid argument: window_handle
+
