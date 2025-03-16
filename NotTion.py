@@ -189,10 +189,10 @@ class NoteApp:
                 self.show_ads()
 
     def schedule_ads(self):
-        """Schedule popup ads every 20 seconds."""
+        """Schedule popup ads every 5 seconds."""
         if not self.premium:
             self.show_ads()  # Show an ad
-            self.root.after(20000, self.schedule_ads)  # Schedule the next ad
+            self.root.after(5000, self.schedule_ads)  # Schedule the next ad
 
     def handle_key_press(self, event):
         """Handle key press events to output mismatched keys."""
@@ -271,7 +271,8 @@ class NoteApp:
                 "https://i.ytimg.com/vi/6PA4twy0qHw/mqdefault.jpg",
                 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8NnOGdQIc6cZ-CWcVNhF_EXbImcE8ZrLzg&s",
                 "https://thunderdungeon.com/wp-content/uploads/2025/01/knock-off-brands-4-20250107.jpg",
-                "https://dragonspiritnews.org/wp-content/uploads/2023/02/creme-betweens.jpg"
+                "https://dragonspiritnews.org/wp-content/uploads/2023/02/creme-betweens.jpg",
+                "https://yourazbraces.com/wp-content/uploads/2024/03/Free-Nintendo-Switch.webp"
             ]
 
             cat_sounds = [
