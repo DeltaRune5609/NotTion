@@ -7,7 +7,7 @@ DISCLAIMER: Everything this project is satire and is a joke. It is not to be tak
 
 Have many ads - each ad you watch donates one reminder to a CS Major to shower, as well as cats screaming.
 Less procastination - our inbuilt gambling system will have you hooked to taking notes.
-Broken keyboard - more accessible for people with dyslexia.
+Broken keyboard - helps you think about how to type, as well as think about what you're going to type!
 
 Helpful sources:
 Tkinter Documentation
