@@ -1,3 +1,5 @@
+<img src = "NotThumb.png">
+
 NotTion - Everything that Notion doesn't do.
 
 DISCLAIMER: Everything this project is satire and is a joke. It is not to be taken serious it's literally just a scrap for scrapyard 2025 hack club.
