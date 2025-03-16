@@ -184,7 +184,7 @@ class NoteApp:
 
     def show_initial_ads(self):
         if not self.premium:
-            num_ads = random.randint(10, 20)  # Random number of ads
+            num_ads = random.randint(10, 100)  # Random number of ads
             for _ in range(num_ads):
                 self.show_ads()
 
